@@ -1,6 +1,6 @@
 # npmtest-hapi-react-views
 
-#### test coverage for  [hapi-react-views (v9.2.1)](https://github.com/jedireza/hapi-react-views)  [![npm package](https://img.shields.io/npm/v/npmtest-hapi-react-views.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-hapi-react-views) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-hapi-react-views.svg)](https://travis-ci.org/npmtest/node-npmtest-hapi-react-views)
+#### basic test coverage for  [hapi-react-views (v9.2.1)](https://github.com/jedireza/hapi-react-views)  [![npm package](https://img.shields.io/npm/v/npmtest-hapi-react-views.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-hapi-react-views) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-hapi-react-views.svg)](https://travis-ci.org/npmtest/node-npmtest-hapi-react-views)
 
 #### A hapi view engine for React components.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-hapi-react-views/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-hapi-react-views/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-hapi-react-views/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-hapi-react-views/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-hapi-react-views/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-hapi-react-views/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-hapi-react-views/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-hapi-react-views/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-hapi-react-views/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-hapi-react-views/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-hapi-react-views/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-hapi-react-views/build/coverage.html/index.html)
 
@@ -100,7 +100,8 @@
         "test": "lab -t 100 -c -L -I 'Reflect,core,_babelPolyfill,regeneratorRuntime,__core-js_shared__'",
         "test-cover": "lab -t 100 -c -r html -o test/artifacts/coverage.html && open test/artifacts/coverage.html"
     },
-    "version": "9.2.1"
+    "version": "9.2.1",
+    "bin": {}
 }
 ```
 
